@@ -1,0 +1,23 @@
+{
+  "name": "git-policy",
+  "version": "0.0.1-beta",
+  "description": "Command-line Git wrapper that allows enforcing configurable project policy.",
+  "main": "git-policy.js",
+  "bin": "./git-policy"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EthanRBrown/git-policy.git"
+  },
+  "keywords": [
+    "git",
+    "policy",
+    "workflow",
+    "version",
+    "control"
+  ],
+  "author": "Ethan Brown <ethan.brown@popart.com>",
+  "license": "GPL-3, MIT",
+  "bugs": {
+    "url": "https://github.com/EthanRBrown/git-policy/issues"
+  }
+}
