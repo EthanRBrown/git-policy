@@ -1,9 +1,10 @@
 {
   "name": "git-policy",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Command-line Git wrapper that allows enforcing configurable project policy.",
   "main": "git-policy.js",
-  "bin": "./git-policy"
+  "bin": "./git-policy.js",
+  "preferGlobal": "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/EthanRBrown/git-policy.git"
