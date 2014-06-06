@@ -23,7 +23,7 @@ var cmd = {
 }
 
 function getRules(context){
-	var f = path.join(context.projectDir, '.gitrules.js');
+	var f = path.join(context.projectDir, '.gitpolicy.js');
 	return fs.existsSync(f) && require(f);
 }
 
