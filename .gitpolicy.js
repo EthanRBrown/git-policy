@@ -11,7 +11,7 @@ module.exports = [
 	{
 		command: 'merge',
 		error: function(context, cmd){
-			if(context.branch!=='master' && context.branch!=='qa') return 'You must be on master or ITEST to merge.';
+			if(context.branch!=='master' && context.branch!=='qa') return 'You must be on master or qa to merge.';
 		},
 	},
 

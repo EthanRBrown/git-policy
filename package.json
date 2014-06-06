@@ -1,8 +1,8 @@
 {
   "name": "git-policy",
-  "version": "0.0.3-beta",
+  "version": "0.0.4-beta",
   "description": "Command-line Git wrapper that allows enforcing configurable project policy.",
-  "main": "git-policy.js",
+  "main": "git-policy",
   "bin": {
     "git-policy": "./git-policy.js"
   },

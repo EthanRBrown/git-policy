@@ -24,6 +24,11 @@ You can determine where Git is installed by typing `where git`.  Put the followi
 
 https://github.com/EthanRBrown/git-policy/blob/master/g.cmd
 
+###Integrating with Git
+
+Until you get used to using `g` instead of `git`, I recommend renaming your Git executable to `_git`; it'll prevent you from using Git without the protection of the policy wrapper.
+
+
 ##Rules
 
 Now that you've got git-policy installed, you can create rule sets for your repository.  You do this by creating a `.gitpolicy.js` file in your project root (where your `.git` directory is).  Here's an example of that file:
@@ -88,8 +93,9 @@ Now that you've got git-policy installed, you can create rule sets for your repo
 		},
 	]
 
-##Notes
+##What's Not Working
 
 Currently, errors and warnings are handled the same way: the script exits with an errorlevel of 1, preventing the Git command from being run.
 
-Until you get used to using `g` instead of `git`, I recommend renaming your Git executable to `_git`; it'll prevent you from using Git without the protection of the policy wrapper.
+There currently aren't any "effects", so the "newBranch" effect example currently doesn't work.
+
